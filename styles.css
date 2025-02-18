@@ -2,11 +2,13 @@ h1 {
     color: rgb(13, 104, 59);
     font-weight: bolder;
     font-size: 100px;
+    font-family: tahoma, sans-serif;
 }
 
 body {
     text-align: center;
     font-weight: bold;
+    background-color: rgb(104, 191, 211);
 }
 
 .button.home {
@@ -21,7 +23,8 @@ body {
 
 li {
     list-style-position: inside;
-    text-align: center;
+    text-align: left;
+    padding-right: 90px; /* Adjust the value as needed */
 }
 
 .description {
@@ -31,5 +34,21 @@ li {
 
 }
 
+#recipes li {
 
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style-position: inside;
+}    
 
+.ingredients {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive, sans-serif;
+}
+
+h2 {
+
+    text-decoration: underline;
+}
