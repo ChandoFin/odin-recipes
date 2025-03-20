@@ -2,7 +2,7 @@ h1 {
     color: rgb(13, 104, 59);
     font-weight: bolder;
     font-size: 100px;
-    font-family: tahoma, sans-serif;
+    font-family: Luminari, sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 li {
     list-style-position: inside;
     text-align: left;
-    padding-right: 90px; /* Adjust the value as needed */
+    padding-right: 100px; /* Adjust the value as needed */
 }
 
 .description {
@@ -36,10 +36,11 @@ li {
 
 #recipes li {
 
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    font-family: comic sans MS, Courier, monospace;
     text-align: center;
     list-style-position: inside;
+    margin-left: ;
 }    
 
 .ingredients {
@@ -51,4 +52,17 @@ li {
 h2 {
 
     text-decoration: underline;
+}
+
+.main {
+   margin: 40px 40px;
+   padding: 16px;
+   background: rgb(121, 163, 199);
+}
+
+.boxes {
+    background-color: rgb(208, 228, 232);
+    padding: 12px;
+    margin: 90px 390px;
+    border: 3px solid black;
 }
